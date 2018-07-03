@@ -2,30 +2,27 @@
 layout: default
 ---
 
-<div class="posts-list">
-  <div class="container">
-    {%- if page.title -%}
-      <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
-  
-    {{ content }}
-  
-    {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Wpisy" }}</h2>
-      <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {{ post.excerpt }}
-        </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
-  </div>
-</div>
+<div id="wrapper">
+  <section id="intro" class="main">
+    <span class="icon fa-diamond major"></span>
+    <h2>Kim jestem?</h2>
+    <p>Nazywam się Mateusz i jestem Front-end Developerem, programuję od ponad 10 lat. W wolnych chwilach bloguję oraz bawię się Back-endem. Na tym blogu znajdziesz wiele, porad, tutoriali oraz moich przemyśleń na temat frontendu.</p>
+    <ul class="actions">
+      <li><a href="/about/" class="button big">Dowiedz się więcej</a></li>
+    </ul>
+  </section>
+    
+  <section class="main items">
+    {%- for post in site.posts -%}
+      <article class="item">
+        <header>
+          <!-- <a href="{{ post.url | relative_url }}" style="background-image: url('{{ post.thumbnail }}');"></a> -->
+          <h3>{{ post.title | escape }}</h3>
+        </header>
+        <p>{{ post.excerpt }}</p>
+        <ul class="actions">
+          <li><a href="{{ post.url | relative_url }}" class="button">Więcej</a></li>
+        </ul>
+      </article>
+    {%- endfor -%}
+  </section>
