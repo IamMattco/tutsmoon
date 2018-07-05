@@ -1562,7 +1562,7 @@
 			width: 100%;
 			height: auto;
 			padding: 20px;
-			border: 1px solid rgba(0,0,0,0.2);
+			border: 1px solid #f1f1f1;
 		}	
 		.inner ul {
 			padding-left: 0;
