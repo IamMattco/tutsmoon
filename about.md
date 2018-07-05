@@ -4,15 +4,6 @@ title: O mnie
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Witaj, nazywam się Mateusz i jestem programistą z wieloletnim stażem, obecnie pracuję jako Front-end Developer w jednej z Angielski firm. Na co dzień zajmuję się tworzeniem stron internetowych oraz aplikacji internetowych. Po pracy pracuje jako Back-end Developer nad własnymi projektami. Najczęściej korzystam z JS, Ruby oraz PHP.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Jeśli szukasz kogoś do wykonania Twojej strony lub aplikacji, to zapraszam do kontaktu ze mną.
