@@ -31,15 +31,11 @@ layout: default
     <li class="left">
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="button">Poprzednia</a>
-      {% else %}
-        <a href="" class="button">Poprzednia</a>
       {% endif %}
     </li>
     <li class="right">
       {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}" class="button">Następna</a>
-      {% else %}
-        <a href="" class="button">Następna</a>
       {% endif %}
     </li>
   </ul>
