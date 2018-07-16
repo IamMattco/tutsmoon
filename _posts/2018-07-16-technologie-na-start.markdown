@@ -6,11 +6,7 @@ categories: programowanie bledy
 thumbnail: "/images/pic01.jpg"
 ---
 
-## Jakie technologie wybrać na start?
-
-Witaj w dzisiejszym wpisie chciałbym odpowiedzieć na pytanie:
-
->Jaką technologię wybrać na początek?
+Witaj w dzisiejszym wpisie chciałbym odpowiedzieć na pytanie: Jaką technologię wybrać zaczynając naukę programowania?
 
 To zależy od Twoich preferencji, moim zdaniem najłatwieszym językiem do nauczenia będzie taki, który jest dobrze udokumentowany i możemy znaleźć bardzo dużo przykładów/skryptów. Przez wiele lat początkujący wybierali PHP, ze względu na ogrom materiałów, które można znaleźć w internecie.
 
