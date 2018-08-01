@@ -2,7 +2,7 @@
 layout: post
 title:  "Biblioteki UI"
 date:   2018-07-05 12:42:09 +0100
-categories: programowanie biblioteki
+categories: front-end
 thumbnail: "/images/pic01.jpg"
 ---
 Dzisiejszy wpis będzie poświęcony bibliotekom UI dzięki, którym przyspieszysz tworzenie swoich aplikacji internetowych. Przedstawię Ci trzy najpopularniejsze rozwiązania.

@@ -3,7 +3,7 @@ layout: post
 title:  "Moje idealne środowisko pracy"
 date:   2018-07-03 13:27:09 +0100
 thumbnail: "/images/pic01.jpg"
-category: "inne"
+category: ["inne", "praca"]
 ---
 
 

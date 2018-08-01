@@ -2,7 +2,7 @@
 layout: post
 title:  "Błędy podczas nauki programowania"
 date:   "2018-07-04 13:27:09"
-categories: programowanie bledy
+category: ["praca", "programowanie", "front-end"]
 thumbnail: "/images/pic01.jpg"
 ---
 Witaj, w dzisiejszym wpisie chciałbym przedstawić Ci mój punkt widzenia na temat nauki programowania. Chciałbym również przedstawić błędy, które popełniałem na początku mojej drogi web developera.

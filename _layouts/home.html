@@ -32,7 +32,9 @@ layout: default
                   <img src="{{prepend: site.baseurl | append : post.thumbnail}}" alt="">
               </div>
               <div class="uk-card-body uk-text-center">
-                  <div class="uk-card-badge uk-label">{{post.category}}</div>
+                  {%- for cat in post.categories[0] -%}
+                    <div class="uk-card-badge uk-label">{{cat}}</div>
+                  {%- endfor -%}
                   <a href="{{ post.url | relative_url }}" class="uk-button uk-button-text"><h3 class="uk-card-title">{{ post.title | escape }}</h3></a>
                   <p>{{ post.excerpt }}</p>
               </div>

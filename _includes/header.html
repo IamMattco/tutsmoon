@@ -5,8 +5,19 @@
   <div class="uk-navbar-right">
     <ul class="uk-navbar-nav">
       <li><a href="/">Strona główna</a></li>
+      <li>
+        <a href="#">Kategorie</a>
+        <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              {%- for category in site.categories -%}
+                <li><a href="/categories/#{{ category[0] | downcase }}">{{ category[0] | capitalize }} ({{ category[1].size }})</a></li>
+              {%- endfor -%}
+            </ul>
+        </div>
+      </li>
       <li><a href="/about/">O mnie</a></li>
       <li><a href="/contact/">Kontakt</a></li>
+      
     </ul>
   </div>
 </nav>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Przydatne mixiny do Sassa"
 date:   2018-07-18 16:12:09 +0100
-categories: sass frontend
+categories: ["sass", "front-end"]
 thumbnail: "/images/pic01.jpg"
 ---
 

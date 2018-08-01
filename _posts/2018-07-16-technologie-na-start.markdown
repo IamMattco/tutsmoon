@@ -2,7 +2,7 @@
 layout: post
 title:  "Które technologie wybrać na start"
 date:   2018-07-16 13:27:09 +0100
-categories: programowanie bledy
+categories: ["programowanie", "praca"]
 thumbnail: "/images/pic01.jpg"
 ---
 

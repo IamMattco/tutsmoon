@@ -2,7 +2,7 @@
 layout: post
 title:  "Pierwsza praca jako Front-end Developer"
 date:   2018-07-06 13:05:09 +0100
-categories: programowanie pierwsza praca
+categories: ["programowanie", "front-end"] 
 thumbnail: "/images/pic01.jpg"
 ---
 
