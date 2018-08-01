@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Błędy podczas nauki programowania"
-date:   2018-07-04 13:27:09 +0100
+date:   "2018-07-04 13:27:09"
 categories: programowanie bledy
 thumbnail: "/images/pic01.jpg"
 ---

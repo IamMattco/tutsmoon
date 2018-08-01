@@ -1,12 +1,17 @@
 ---
 layout: default
 ---
-<div id="wrapper">
-    <section id="intro" class="main">
-      <span class="icon fa-diamond major"></span>
-      <h2>{{ page.title | escape }}</h2>
-      <div class="normal-text">
-        {{ content }}
+
+<div class="uk-section uk-section-default">
+  <div class="uk-container uk-container-small">
+      <div class="uk-card uk-card-default uk-card-body">
+          <article class="uk-article">
+
+              <h1 class="uk-article-title"><a class="uk-link-reset" href="">{{ page.title | escape }}</a></h1>
+          
+              <p>{{ content }}</p>
+          
+          </article>
       </div>
-    </section>
   </div>
+</div>
