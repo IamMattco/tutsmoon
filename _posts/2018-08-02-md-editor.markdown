@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "mdEditor - darmowy edytor markdown"
+date:   2018-08-02 13:09:09
+categories: ["projekt"]
+thumbnail: "/images/mdeditor.jpg"
+---
+
+Witaj w dzisiejszym wpisie, chciałbym zaprezentować Ci mój ostatni projekt. Jest nim **mdEditor**, czyli edytor w którym możemy tworzyć dokumenty używająć markdowna. Aplikacja jest lekka i szybka w instalacji. Aktualnie jest dostępna tylko i wyłącznie w języku angielskim.
